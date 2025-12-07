@@ -73,6 +73,10 @@ htmlcov/
 # ================================
 # 项目特定文件
 # ================================
+# SSH 配置文件（包含敏感信息）
+ssh_configs.json
+**/ssh_configs.json
+
 # Bilibili 工具包临时文件
 bilibiliCacheListTmp.md
 bilibiliCacheListFin.md

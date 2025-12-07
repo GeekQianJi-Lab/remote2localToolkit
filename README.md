@@ -4,18 +4,19 @@
 
 持续增加新工具ing, 欢迎大家提 PR 一起丰富工具库!
 
-## 🔄 远程 server 工具包
+## 🔄 远程 Server 工具包
 
-#### SCP 文件传输工具 ([scpToolkit](./remote2localToolkit/scpToolkit/))
-
-[SCP 传输工具使用指南](./remote2localToolkit/scpToolkit/README.md)
-
-**核心功能**：
+### SCP 文件传输工具 ([scpToolkit](./scpToolkit/))
 
 - 📦 封装常用 scp 命令（下载/上传）
-- 🔢 最简交互 - 纯数字选项
+- 🔢 Terminal 数字交互
 - 📊 实时传输进度
-- 🖥️ 跨平台支持（Windows/macOS/Linux）
+
+### SSH 连接管理器 ([sshToolkit](./sshToolkit/))
+
+- 🖥️ GUI 界面管理 SSH 连接
+- 💾 保存/加载连接配置（包括密码的加密🔐保存）
+- 🚀 一键打开终端连接（不过限于安全问题考虑，不提供直接传入密码打开的方案，需要重新输入密码）
 
 ## 📄 许可证
 
